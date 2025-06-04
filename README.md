@@ -13,6 +13,7 @@ and publishing here so people can use it.
 
 - 'Import from Pocket' UI (using Pocket consumer key) is slow and only imported part of my entries (around 1000+ and it didn't proceed further)
 - [Helper script to import CSV data over Wallabag API](https://github.com/wallabag/wallabag/issues/7635#issuecomment-2727691106) is slow and overwrites date of articles
+  - This is because current Wallabag API does not provide a way to create an entry with past created_at date.
 
 So, I decided to convert Pocket-exported CSV into Wallabag JSON format and use 'Import Wallabag JSON' UI to import the data. However,
 
