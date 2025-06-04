@@ -1,4 +1,4 @@
-# wi - Import (large) Pocket CSV into Wallabag
+# Import (large) Pocket CSV into Wallabag
 
 Pocket recently announced EOL and I have around 10k entries to be migrated.
 
